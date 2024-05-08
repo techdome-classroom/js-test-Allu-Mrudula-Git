@@ -9,7 +9,7 @@
                 if (grid[i][j]== 'L'){
                     ans+=1
                     q= [(i,j)]
-                    while(len(q)>0):
+                    while(len(q)>0){
                         p= q[0]
                         grid[p[0]][p[1]]= 'W'
                         q.pop(0)
@@ -21,6 +21,7 @@
                             q.append((p[0], p[1]-1))
                         if(p[1]<m-1 and grid[p[0]][p[1]+1]=='L'):
                             q.append((p[0], p[1]+1))
+                    }
                 }
             }
         }
