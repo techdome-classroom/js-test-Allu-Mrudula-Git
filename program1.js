@@ -1,8 +1,8 @@
   const getTotalIsles = function (grid) {
 
-    n= len(grid)
-        m= len(grid[0])
-        ans= 0
+        let n= len(grid)
+        let m= len(grid[0])
+        let ans= 0
         for(i=0 ; i<n; i++){
             for(j=0 ; j<m; j++){
                 if (grid[i][j]== 'L'){
