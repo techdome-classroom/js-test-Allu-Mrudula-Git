@@ -7,9 +7,9 @@
             for(j=0 ; j<m; j++){
                 if (grid[i][j]== 'L'){
                     ans+=1
-                    q= [[i,j]]
+                    let q= [[i,j]]
                     while(len(q)>0){
-                        p= q[0]
+                        let p= q[0]
                         grid[p[0]][p[1]]= 'W'
                         q.pop(0)
                         if(p[0]>0 && grid[p[0]-1][p[1]]=='L'){
