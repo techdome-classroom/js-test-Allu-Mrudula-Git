@@ -6,7 +6,7 @@
         ans= 0
         for(i=0 ; i<n; i++){
             for(j=0 ; j<m; j++){
-                if grid[i][j]== 'L'{
+                if (grid[i][j]== 'L'){
                     ans+=1
                     q= [(i,j)]
                     while(len(q)>0):
