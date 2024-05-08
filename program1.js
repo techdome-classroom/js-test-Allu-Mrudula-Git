@@ -10,9 +10,9 @@
                     ans+=1
                     let q= [[i,j]]
                     while(len(q)>0){
-                        let p= q[0]
+                        let p= q[k]
                         grid[p[0]][p[1]]= 'W'
-                        q.pop(0)
+                        k++
                         if(p[0]>0 && grid[p[0]-1][p[1]]=='L'){
                             q.push((p[0]-1, p[1]))
                         }
