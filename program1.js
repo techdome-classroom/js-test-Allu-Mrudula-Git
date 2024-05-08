@@ -3,6 +3,7 @@
         let n= grid.len
         let m= grid[0].len
         let ans= 0
+        let k=0
         for(i=0 ; i<n; i++){
             for(j=0 ; j<m; j++){
                 if (grid[i][j]== 'L'){
