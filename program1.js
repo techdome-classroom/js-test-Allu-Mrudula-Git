@@ -33,6 +33,11 @@
   };
   
   module.exports = getTotalIsles;
-  grid= 
-  console.log(getTotalIsles)
+  grid=  [
+    ["L","L","W","W","W"],
+    ["L","L","W","W","W"],
+    ["W","W","L","W","W"],
+    ["W","W","W","L","L"],
+]
+  console.log(getTotalIsles(grid))
 
