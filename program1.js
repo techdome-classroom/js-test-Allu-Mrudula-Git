@@ -13,14 +13,18 @@
                         p= q[0]
                         grid[p[0]][p[1]]= 'W'
                         q.pop(0)
-                        if(p[0]>0 and grid[p[0]-1][p[1]]=='L'):
+                        if(p[0]>0 && grid[p[0]-1][p[1]]=='L'){
                             q.append((p[0]-1, p[1]))
-                        if(p[0]<n-1 and grid[p[0]+1][p[1]]=='L'):
+                        }
+                        if(p[0]<n-1 && grid[p[0]+1][p[1]]=='L'){
                             q.append((p[0]+1, p[1]))
-                        if(p[1]>0 and grid[p[0]][p[1]-1]=='L'):
+                        }
+                        if(p[1]>0 && grid[p[0]][p[1]-1]=='L'){
                             q.append((p[0], p[1]-1))
-                        if(p[1]<m-1 and grid[p[0]][p[1]+1]=='L'):
+                        }
+                        if(p[1]<m-1 && grid[p[0]][p[1]+1]=='L'){
                             q.append((p[0], p[1]+1))
+                        }
                     }
                 }
             }
