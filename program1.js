@@ -34,3 +34,5 @@
   
   module.exports = getTotalIsles;
 
+  console.log(getTotalIsles)
+
