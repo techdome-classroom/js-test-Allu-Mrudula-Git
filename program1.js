@@ -1,6 +1,5 @@
   const getTotalIsles = function (grid) {
 
-
     n= len(grid)
         m= len(grid[0])
         ans= 0
