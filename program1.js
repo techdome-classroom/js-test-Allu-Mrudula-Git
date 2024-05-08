@@ -21,6 +21,7 @@
                             q.append((p[0], p[1]-1))
                         if(p[1]<m-1 and grid[p[0]][p[1]+1]=='L'):
                             q.append((p[0], p[1]+1))
+                }
             }
         }
         return ans
