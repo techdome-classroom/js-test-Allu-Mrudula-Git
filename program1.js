@@ -5,7 +5,7 @@
         m= len(grid[0])
         ans= 0
         for(i=0 ; i<n; i++){
-            for(j=0 ; j<m; j++):
+            for(j=0 ; j<m; j++){}
                 if grid[i][j]== 'L'{
                     ans+=1
                     q= [(i,j)]
@@ -21,6 +21,7 @@
                             q.append((p[0], p[1]-1))
                         if(p[1]<m-1 and grid[p[0]][p[1]+1]=='L'):
                             q.append((p[0], p[1]+1))
+                }
         }
         return ans
 
